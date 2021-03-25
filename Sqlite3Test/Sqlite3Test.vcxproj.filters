@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{ee266185-80d4-400f-a5c4-ac799468c101}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sqlite3Test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sqlite3TestDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BasePack.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BasePrint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Client.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CommonFun.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CommonUI.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CommTbl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DBSqliteFun.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DESTools.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DLL.H">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\DLL_LOAD.H">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FileOper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Ftp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImageBase.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ImageDlg.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\InputLanguage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\InterfaceReg.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\json.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LOG.H">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LOG2.H">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MD5.H">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MediaDevice.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Ping.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PlayerCtrl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\RS232C.H">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sharememory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sqlite3.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sqlite3ext.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SqliteFun.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TCPClient.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TCPServer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tinystr.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tinyxml.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\wav.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sqlite3Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sqlite3TestDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Sqlite3Test.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Sqlite3Test.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Sqlite3Test.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
