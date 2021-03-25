@@ -51,7 +51,7 @@ BOOL CSqlite3TestDlg::OnInitDialog()
 	SetIcon(m_hIcon, TRUE);			// 设置大图标
 	SetIcon(m_hIcon, FALSE);		// 设置小图标
 
-	// TODO: 在此添加额外的初始化代码22
+	// TODO: 在此添加额外的初始化代码223332
 	if (CheckFileExist("cloth.db") == FALSE)
 	{
 		m_pSqldb.OpenDatabase(GetFullPath("cloth.db"));
